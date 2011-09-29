@@ -1,0 +1,9 @@
+<html>
+<head>
+    <title>Custom Progress Bar UI</title>
+    <link rel="stylesheet" type="text/css" href="extjs/resources/css/progress.css">
+    <script type="text/javascript" src="extjs/ext-all.js"></script>
+    <script type="text/javascript" src="js/progress.js"></script>
+</head>
+<body></body>
+</html>
