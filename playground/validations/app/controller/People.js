@@ -57,7 +57,7 @@ Ext.define('Validations.controller.People', {
             this.getForm().getForm().loadRecord(record);
         }
         else {
-            //this.getForm().getForm().loadRecord(Ext.create('Validations.model.Person'))
+            this.getForm().getForm().loadRecord(Ext.create('Validations.model.Person'))
         }
         win.show();
     },
