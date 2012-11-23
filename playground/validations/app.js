@@ -83,8 +83,9 @@ Ext.override(Ext.form.Basic, {
     setModelValidations: function(validations) {
         var fields = this.getFields(), i;
         for(i=0;i<validations.length;i++) {
-            if(fields.map[validations[i].field]) {
-                fields.map[validations[i].field].setModelFieldValidation(validations[i])
+            var fieldMatch = this.findField(validations[i].field);
+            if(fieldMatch) {
+                fieldMatch.setModelFieldValidation(validations[i])
             }
         }
     }
