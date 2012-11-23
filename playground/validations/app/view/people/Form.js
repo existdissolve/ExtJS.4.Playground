@@ -14,20 +14,17 @@ Ext.define('Validations.view.people.Form', {
                 {
                     xtype: 'textfield',
                     name: 'name',
-                    id: 'name',
                     fieldLabel: 'Name'
                 },
                 {
                     xtype: 'numberfield',
                     name: 'age',
-                    id: 'age',
                     fieldLabel: 'Age',
                     value: 20
                 },
                 {
                     xtype: 'textfield',
                     name: 'hobby',
-                    id: 'hobby',
                     fieldLabel: 'Hobby'
                 }    
             ] 
